@@ -1,0 +1,41 @@
+<html> 
+
+  <title> Steelers </title>
+    
+<center> <b> Juju should win MVP </b><br></center>
+    
+    <center> <img src="Steelers.jpg"> </center> <br>
+    <center><b> Juju's stats </b> </center>
+    <center> REC - 111 YDS - 1,426 AVG - 12.8 TDS - 7 </center>
+    
+<script type='text/javascript' src='https://www.youtube.com/watch?v=vYIH1Aik4rk'></script>
+<center>
+<b>You will see why in a couple seconds <br><br>
+<form>
+<input type="text" size="5" id="timer" name="redirect2" value="7">
+</form>
+
+<script>
+
+
+var targetURL="https://www.youtube.com/watch?v=vYIH1Aik4rk"
+
+var currentsecond=7;
+function countredirect(){
+if (currentsecond!=1){
+currentsecond-=1
+document.getElementById('timer').value=currentsecond;
+}
+else{
+window.location=targetURL;
+return
+}
+setTimeout("countredirect()",1000)
+}
+
+countredirect();
+
+</script>
+
+
+<html>
